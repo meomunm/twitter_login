@@ -109,4 +109,8 @@ public class TwitterLoginPlugin: FlutterPlugin, MethodCallHandler, ActivityAware
     activityPluginBinding = binding
     binding.addOnNewIntentListener(this)
   }
+
+  fun getInstagramAppId(): String{
+    return ""
+  }
 }
